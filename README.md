@@ -17,7 +17,7 @@ nanoDAP-WL 是实验室推出的基于cmsis-dap的无线仿真器，仿真器包
 
 # 产品特点
 - 使用极简，PC端无需安装额外软件，只需将发射机和接收器上电，等待连接成功，即可开始调试
-- 支持SWD协议，典型的基于ARM Cortex-M系列芯片均支持SWD调试，常见的芯片如STM32系列，GD32系列，ATMEL-SAM系列，NORDIC-NRF51/52系列，NXP-LPC系列等芯片均支持SWD调试下载。(配图 https://github.com/blacksphere/blackmagic/wiki)
+- 支持SWD协议，典型的基于ARM Cortex-M系列芯片均支持SWD调试，常见的芯片如STM32系列，GD32系列，ATMEL-SAM系列，NORDIC-NRF51/52系列，NXP-LPC系列等芯片均支持SWD调试下载。
 - 支持JTAG协议，配合开源调试器OpenOCD可支持全球范围内几乎所有SoC芯片的调试，如ARM Cortex-A系列、DSP、FPGA、MIPS等，因为SWD协议只是ARM自己定义的私有协议，而JTAG则是国际IEEE 1149标准。 
 - 接收机支持向目标板供电（5V、3.3V），以及从目标板取电（5V、3.3V）两种方式进行工作
 - 支持MDK/IAR/OpenOCD，支持Windows/Linux/Mac 下进行调试开发
