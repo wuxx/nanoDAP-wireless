@@ -42,13 +42,11 @@ nanoDAP-WL 是实验室推出的基于cmsis-dap的无线仿真器，仿真器包
 LED | 说明
 ---|---
 dap-host 蓝灯慢速闪烁 | 等待和dap-target连接
-dap-host 蓝灯常亮| 已经和dap-target成功建立连接
+dap-host 蓝灯常亮,偶尔闪烁| 已经和dap-target成功建立连接
 dap-host 蓝灯快速闪烁 | 正在和dap-target交换数据
-dap-host 红灯常亮 | 通信出错
 dap-target 蓝灯慢速闪烁 | 等待和dap-host连接
-dap-target 蓝灯常亮 | 已经和dap-host成功建立连接
+dap-target 蓝灯常亮,偶尔闪烁 | 已经和dap-host成功建立连接
 dap-target 蓝灯快速闪烁 | 正在和dap-host交换数据
-dap-target 红灯常亮 | 通信出错
 
 # FAQ
 ### Q: 无线通信会断开，导致调试失败如何解决？  
@@ -58,7 +56,7 @@ dap-target 红灯常亮 | 通信出错
 ### Q: 无线通信连接成功之后，应该如何进行后续的设置？
 由于系统基于cmsis-dap实现，连接成功后，所有的配置和cmsis-dap仿真器一样操作，具体操作说明请参考 请见[nanoDAP用户手册](https://github.com/wuxx/nanoDAP/blob/master/doc/README.md)
 ### Q: 可支持多少个无线仿真器同时使用，互相之间是否会产生干扰？
-每对无线仿真器出厂时已经分配好各自的工作信道，他们分别工作在不同频率的信道（2.4G-2.5G之间）内，互相之间不会产生信号干扰。理论上，可支持同时使用256个无线仿真器进行调试开发工作。
+每对无线仿真器出厂时已经一一配对，互相之间不会交叉连接，理论上可支持256对无线仿真器同时进行工作。
 ### Q: 目前支持哪些芯片的调试烧录？
  典型的使用场景为对单片机进行编程调试，理论上Cortex-M系列的内核均可以使用DAP进行烧录调试，典型的芯片如STM32全系列的芯片，GD32全系列，nRF51/52系列等。
 ### Q: 在linux下可以进行调试吗？
