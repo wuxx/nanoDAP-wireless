@@ -3,8 +3,9 @@
 ![nanoDAP-wl-v1.0-a](https://github.com/wuxx/nanoDAP-wireless/blob/master/v1.0/doc/nanoDAP-wl-v1.0-a.jpg)
 ![nanoDAP-wl-v1.0-b](https://github.com/wuxx/nanoDAP-wireless/blob/master/v1.0/doc/nanoDAP-wl-v1.0-b.jpg)
 
-nanoDAP-wl v1.0 版本硬件开源，供爱好者自行制作研究。另外剩余部分PCB单板，感兴趣的朋友请在群内索取，剩余PCB数目不多，每人限2套，只需出运费即可。
-固件针对个人开放，请大家加入QQ群 698319017 向群主索取（请提供芯片ID，群主会生成好镜像发给你）。
+nanoDAP-wl v1.0 版本硬件开源，供爱好者自行制作研究。  
+另外剩余部分PCB单板，感兴趣的朋友请在群内索取，剩余PCB数目不多，每人限2套，只需出PCB成本+运费即可。  
+固件针对个人开放，请大家加入QQ群 698319017 向群主索取（请提供芯片ID，群主会生成好镜像发给你）。  
 
 ## 对比
 特性|v1.0 | v2.0|说明|
