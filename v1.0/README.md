@@ -8,6 +8,17 @@ nanoDAP-wl v1.0 版本硬件开源，供爱好者自行制作研究学习。
 另外剩余部分PCB单板，需要的朋友请在群内索取，剩余PCB数目不多，只需出PCB成本+运费即可。
 固件针对个人开放，每人限两套，请在群内向群主索取即可（请提供芯片ID，群主会生成好镜像发给你）。
 
+如何获取芯片ID：
+
+void stm32f1_get_cpuid(void)
+{
+      uint32_t idcode[3];
+      idcode[0] = *(volatile uint32_t*)(0x1FFFF7E8);
+      idcode[1] = *(volatile uint32_t*)(0x1FFFF7EC);
+      idcode[2] = *(volatile uint32_t*)(0x1FFFF7F0);
+      printf("0x%08x 0x%08x 0x%08x", idcode[0], idcode[1], idcode[2]);
+}
+
 ## 对比
 特性|v1.0 | v2.0|说明|
 ----|----|----|-----|
