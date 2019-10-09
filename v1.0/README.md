@@ -10,6 +10,7 @@ nanoDAP-wl v1.0 版本硬件开源，供爱好者自行制作研究学习。
 
 如何获取芯片ID：
 
+```
 void stm32f1_get_cpuid(void)
 {
       uint32_t idcode[3];
@@ -18,6 +19,7 @@ void stm32f1_get_cpuid(void)
       idcode[2] = *(volatile uint32_t*)(0x1FFFF7F0);
       printf("0x%08x 0x%08x 0x%08x", idcode[0], idcode[1], idcode[2]);
 }
+```
 
 ## 对比
 特性|v1.0 | v2.0|说明|
