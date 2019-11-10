@@ -6,8 +6,8 @@
     * [无线配置](#无线配置)
     * [仿真器选择](#仿真器选择)
     * [目标检测](#目标检测)
-    * [烧写算法](#烧写算法)
     * [复位设置](#复位设置)
+    * [烧写算法](#烧写算法)
 * [LED状态](#led状态)
 * [产品链接](#产品链接)
 * [FAQ](#faq)
@@ -60,15 +60,13 @@ nanoDAP-wl 是实验室推出的基于cmsis-dap的无线调试器，即插即用
 在 Option -> Debug 菜单中点击Settings 进入配置菜单，如图所示，假若仿真器已经正常连接，则在左侧窗口会识别出仿真器的相关信息，假若使用SWD接口进行调试烧录，则请将接口配置成和左侧红框处一致。假若此时目标单板已经正常连接，则在右侧红框出会识别出目标单板的相关信息。  
 ![target_id1](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/target_id1.png)
 
-## 烧写算法
-对于特定的目标芯片，您需要为其配置特定的烧写算法，以stm32f10x系列为例，如图所示：  
-![flash_algorithm](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/flash_algorithm.jpg)
-
-
 ## 复位设置
 一般情况下，您或许希望烧写完芯片之后立即开始运行，我们的DAP仿真器经过软件定制，支持复位后立即开始运行，您需要在Debug 选项中进行配置，如图所示：  
 ![reset_select](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/reset_select.png)
 
+## 烧写算法
+对于特定的目标芯片，您需要为其配置特定的烧写算法，以stm32f10x系列为例，如图所示：  
+![flash_algorithm](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/flash_algorithm.jpg)
 
 # LED状态
 为方便说明，称发射机称之为dap-host，因其与host PC连接。接收机则称为dap-target，因其与目标单板相接。
