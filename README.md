@@ -21,8 +21,8 @@
 
 # 产品介绍
 nanoDAP-wl 是实验室推出的基于cmsis-dap的无线调试器，即插即用，速度快，支持虚拟串口。无线调试器包括发射机/接收机，基于2.4G无线通信，可对10m范围内的目标进行程序烧录和调试，在某些有线仿真器不便调试的场景，如目标始终处于移动状态（飞行器、小车、机器人等），目标已经组装成产品形态，并且已安装在墙上或者高处等。此时使用无线调试器能较好的解决这些场景下调试问题，有效提高研发效率。
-![nanoDAP-wl-v2.0-a](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/nanoDAP-wl-v2.0-a-0.05.jpg)
-![nanoDAP-wl-v2.0-b](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/nanoDAP-wl-v2.0-b-0.05.jpg)
+![nanoDAP-wl-v2.0-a](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/nanoDAP-wl-v2.0-a-0.1.jpg)
+![nanoDAP-wl-v2.0-b](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/nanoDAP-wl-v2.0-b-0.1.jpg)
 # 产品特点
 - 使用极简，PC端无需安装额外软件，只需将发射机和接收器分别上电，等待连接成功，即可开始调试
 - 支持SWD协议，典型的基于ARM Cortex-M系列芯片均支持SWD调试，常见的芯片如STM32系列，GD32系列，ATMEL-SAM系列，NORDIC-NRF51/52系列，NXP-LPC系列等芯片均支持SWD调试下载
