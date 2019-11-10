@@ -64,7 +64,7 @@ nanoDAP-wl 是实验室推出的基于cmsis-dap的无线调试器，即插即用
 
 ## 复位设置
 一般情况下，您或许希望烧写完芯片之后立即开始运行，我们的DAP仿真器经过软件定制，支持复位后立即开始运行，您需要在Debug 选项中进行配置，如图所示：  
-![reset_select](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/reset_select.jpg)
+![reset_select](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/reset_select.png)
 
 
 # LED状态
