@@ -81,7 +81,7 @@ dap-target 蓝灯常亮,偶尔快速闪烁 | 已经和dap-host成功建立连接
 dap-target 蓝灯快速闪烁 | 正在和dap-host交换数据
 
 # 产品链接
-[nanoDAP-wl无线仿真器](https://item.taobao.com/item.htm?spm=a230r.1.14.4.331a393eoPAZ69&id=614150181233&ns=1&abbucket=11#detail)
+[nanoDAP-wl无线仿真器](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21349689064.10.4128773d6vVEeq&id=596673065140)
 
 # FAQ
 ### Q: 无线通信会断开，导致调试失败如何解决？  
