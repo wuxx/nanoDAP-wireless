@@ -1,3 +1,4 @@
+[中文](./README.md) [English](./README_en.md)
 # nanoDAP-wireless 用户手册
 * [产品介绍](#产品介绍) 
 * [产品特点](#产品特点)
