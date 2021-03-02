@@ -16,7 +16,7 @@
 * [FAQ](#faq)
 
 # Introduction
-nanoDAP-wl is a cmsis-dap based wireless debugger made by the laboratory. It is plug and play, fast, and supports virtual serial ports. The wireless debugger includes a transmitter/receiver. Based on 2.4G wireless communication, it can program and debug the target within 10m. In some scenarios where the wired debugger is inconvenient to debug, such as the target is always in a moving state (aircraft, Cars, robots, etc.), the target has been assembled into a product form and installed on a wall or high place. At this time, the use of a wireless debugger can better solve the debugging problems in these scenarios and effectively improve the research and development efficiency.
+nanoDAP-wl is a cmsis-dap based wireless debugger made by the laboratory. It is plug and play, fast, and supports virtual serial ports. The wireless debugger includes a transmitter/receiver. Based on 2.4G wireless communication, it can program and debug the target within 10m. In some scenarios where the wired debugger is inconvenient to debug, such as the target is always in a moving state (aircraft, Cars, robots, etc.), the target has been assembled into a product form and installed on a wall or high place. At this time, the use of a wireless debugger can better solve the debugging problems in these scenarios and effectively improve the research and development efficiency.  
 ![nanoDAP-wl-v2.3-top-0.5](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/nanoDAP-wl-v2.3.top-0.5.jpg)
 # Feature
 - Simple to use, no need to install additional driver on the PC, just power on the transmitter and receiver separately, wait for the wireless connection to succeed, and then start debugging immediately  
@@ -39,22 +39,22 @@ nanoDAL-wl supports JTAG and SWD interfaces. If your debugging target is based o
 The wireless connection configuration does not need to install additional software to configure. power on the transmitter and receiver and observe that the blue light on the wireless module changes from flashing to steady on, which means that the wireless connection has been established. After the wireless connection is established, you can use it as a wired debugger.
 
 ## MDK Config
-power on the transmitter and receiver, plug the transmitter into PC USB, if everything is ok, there will appear a CDC port and a USB HID device
+power on the transmitter and receiver, plug the transmitter into PC USB, if everything is ok, there will appear a CDC port and a USB HID device  
 ![usb_device](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/usb_device.png)
 ## Debugger Select
-select CMSIS-DAP Debugger in Option -> Debug
+select CMSIS-DAP Debugger in Option -> Debug  
 ![debug_select](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/debug_select.jpg)
 ## Target Detect
-click Settings in Option -> Debug, recommend to select the swd port, and config the frequence to 10MHz
+click Settings in Option -> Debug, recommend to select the swd port, and config the frequence to 10MHz  
 ![target_id1](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/target_id1.png)
 
 ## Flash Algorithm
 you need to config the flash algorithm for your target mcu, here is a example with stm32f1x  
-Note: select the Reset and Run  for target auto reset after program done.  
+Note: select the Reset and Run  for target auto reset after program done.    
 ![flash_algorithm](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/flash_algorithm.jpg)
 
 ##  Reset Setting
-Generally, you may need to start the mcu when program done, config the Reset type to `SYSRESETREQ` here and select `Reset and Run` in the Flash Download Page above.
+Generally, you may need to start the mcu when program done, config the Reset type to `SYSRESETREQ` here and select `Reset and Run` in the Flash Download Page above.  
 ![reset_select](https://github.com/wuxx/nanoDAP-wireless/blob/master/doc/reset_select.png)
 
 
@@ -69,7 +69,7 @@ receiver Blue light is always on| Has successfully established a connection with
 receiver Blue light flashes quickly | Exchanging data with transmitter
 
 # Product Link
-[nanoDAP-wl wireless debugger](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21349689064.10.4128773d6vVEeq&id=596673065140)
+[nanoDAP-wl wireless debugger](https://muselab-tech.aliexpress.com)
 
 # FAQ
 ### Q: The wireless communication will be disconnected and the debugging will fail. How to solve it?
